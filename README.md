@@ -1,6 +1,6 @@
 # npmtest-redis-lock
 
-#### test coverage for  [redis-lock (v0.1.0)](https://github.com/errorception/redis-lock)  [![npm package](https://img.shields.io/npm/v/npmtest-redis-lock.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redis-lock) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redis-lock.svg)](https://travis-ci.org/npmtest/node-npmtest-redis-lock)
+#### basic test coverage for  [redis-lock (v0.1.0)](https://github.com/errorception/redis-lock)  [![npm package](https://img.shields.io/npm/v/npmtest-redis-lock.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redis-lock) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redis-lock.svg)](https://travis-ci.org/npmtest/node-npmtest-redis-lock)
 
 #### A locking primitive using redis.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redis-lock/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redis-lock/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redis-lock/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redis-lock/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redis-lock/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redis-lock/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redis-lock/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redis-lock/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redis-lock/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redis-lock/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redis-lock/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redis-lock/build/coverage.html/index.html)
 
@@ -79,7 +79,8 @@
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha"
     },
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
